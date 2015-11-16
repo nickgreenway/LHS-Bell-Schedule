@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1ABDD421BFA2B73004CC5EB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ABDD411BFA2B73004CC5EB /* Parse.framework */; };
+		A1B80A061BE001B400D1297A /* RegularDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B80A051BE001B400D1297A /* RegularDayViewController.swift */; };
+		A1B80A081BE002E100D1297A /* HalfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B80A071BE002E100D1297A /* HalfDayViewController.swift */; };
+		A1B80A0A1BE0032000D1297A /* TwoHourDelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B80A091BE0032000D1297A /* TwoHourDelayViewController.swift */; };
+		A1B80A0C1BE0035400D1297A /* HomeroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B80A0B1BE0035400D1297A /* HomeroomViewController.swift */; };
+		A1B943BA1BE989BD00E84C9F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943B91BE989BD00E84C9F /* Bolts.framework */; };
+		A1B943BC1BE98A1400E84C9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943BB1BE98A1400E84C9F /* AudioToolbox.framework */; };
+		A1B943BF1BE98A2000E84C9F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943BD1BE98A2000E84C9F /* CFNetwork.framework */; };
+		A1B943C01BE98A2000E84C9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943BE1BE98A2000E84C9F /* CoreGraphics.framework */; };
+		A1B943C31BE98A3B00E84C9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943C11BE98A3B00E84C9F /* CoreLocation.framework */; };
+		A1B943C41BE98A3B00E84C9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943C21BE98A3B00E84C9F /* QuartzCore.framework */; };
+		A1B943C71BE98A4C00E84C9F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943C51BE98A4C00E84C9F /* Security.framework */; };
+		A1B943CA1BE98A5A00E84C9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943C91BE98A5A00E84C9F /* SystemConfiguration.framework */; };
+		A1B943CC1BE98A6600E84C9F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943CB1BE98A6600E84C9F /* libz.tbd */; };
+		A1B943CE1BE98A6D00E84C9F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B943CD1BE98A6D00E84C9F /* libsqlite3.tbd */; };
+		A1EA11581BE118E700B07236 /* NHCSCalenderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA11571BE118E700B07236 /* NHCSCalenderController.swift */; };
+		A1EE2A4A1BDE7C4200928F76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE2A491BDE7C4200928F76 /* AppDelegate.swift */; };
+		A1EE2A4C1BDE7C4200928F76 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE2A4B1BDE7C4200928F76 /* FirstViewController.swift */; };
+		A1EE2A4E1BDE7C4200928F76 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE2A4D1BDE7C4200928F76 /* SecondViewController.swift */; };
+		A1EE2A511BDE7C4200928F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EE2A4F1BDE7C4200928F76 /* Main.storyboard */; };
+		A1EE2A531BDE7C4200928F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EE2A521BDE7C4200928F76 /* Assets.xcassets */; };
+		A1EE2A561BDE7C4200928F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EE2A541BDE7C4200928F76 /* LaunchScreen.storyboard */; };
+		A1EE2A5E1BDE7C9B00928F76 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EE2A5D1BDE7C9B00928F76 /* iAd.framework */; };
+		A1EE2A601BDE7D2900928F76 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE2A5F1BDE7D2900928F76 /* Clock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1ABDD411BFA2B73004CC5EB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A1B80A051BE001B400D1297A /* RegularDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularDayViewController.swift; sourceTree = "<group>"; };
+		A1B80A071BE002E100D1297A /* HalfDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfDayViewController.swift; sourceTree = "<group>"; };
+		A1B80A091BE0032000D1297A /* TwoHourDelayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoHourDelayViewController.swift; sourceTree = "<group>"; };
+		A1B80A0B1BE0035400D1297A /* HomeroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeroomViewController.swift; sourceTree = "<group>"; };
+		A1B943B91BE989BD00E84C9F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A1B943BB1BE98A1400E84C9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A1B943BD1BE98A2000E84C9F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1B943BE1BE98A2000E84C9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1B943C11BE98A3B00E84C9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1B943C21BE98A3B00E84C9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1B943C51BE98A4C00E84C9F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A1B943C91BE98A5A00E84C9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1B943CB1BE98A6600E84C9F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A1B943CD1BE98A6D00E84C9F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A1EA11571BE118E700B07236 /* NHCSCalenderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHCSCalenderController.swift; sourceTree = "<group>"; };
+		A1EE2A461BDE7C4200928F76 /* LHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EE2A491BDE7C4200928F76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1EE2A4B1BDE7C4200928F76 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A1EE2A4D1BDE7C4200928F76 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A1EE2A501BDE7C4200928F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EE2A521BDE7C4200928F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EE2A551BDE7C4200928F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1EE2A571BDE7C4200928F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EE2A5D1BDE7C9B00928F76 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A1EE2A5F1BDE7D2900928F76 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EE2A431BDE7C4200928F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B943CE1BE98A6D00E84C9F /* libsqlite3.tbd in Frameworks */,
+				A1B943CC1BE98A6600E84C9F /* libz.tbd in Frameworks */,
+				A1B943CA1BE98A5A00E84C9F /* SystemConfiguration.framework in Frameworks */,
+				A1B943C71BE98A4C00E84C9F /* Security.framework in Frameworks */,
+				A1B943C31BE98A3B00E84C9F /* CoreLocation.framework in Frameworks */,
+				A1ABDD421BFA2B73004CC5EB /* Parse.framework in Frameworks */,
+				A1B943C41BE98A3B00E84C9F /* QuartzCore.framework in Frameworks */,
+				A1B943BF1BE98A2000E84C9F /* CFNetwork.framework in Frameworks */,
+				A1B943C01BE98A2000E84C9F /* CoreGraphics.framework in Frameworks */,
+				A1B943BC1BE98A1400E84C9F /* AudioToolbox.framework in Frameworks */,
+				A1B943BA1BE989BD00E84C9F /* Bolts.framework in Frameworks */,
+				A1EE2A5E1BDE7C9B00928F76 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EE2A3D1BDE7C4200928F76 = {
+			isa = PBXGroup;
+			children = (
+				A1B943CD1BE98A6D00E84C9F /* libsqlite3.tbd */,
+				A1B943CB1BE98A6600E84C9F /* libz.tbd */,
+				A1B943C91BE98A5A00E84C9F /* SystemConfiguration.framework */,
+				A1B943C51BE98A4C00E84C9F /* Security.framework */,
+				A1B943C11BE98A3B00E84C9F /* CoreLocation.framework */,
+				A1B943C21BE98A3B00E84C9F /* QuartzCore.framework */,
+				A1B943BD1BE98A2000E84C9F /* CFNetwork.framework */,
+				A1B943BE1BE98A2000E84C9F /* CoreGraphics.framework */,
+				A1B943BB1BE98A1400E84C9F /* AudioToolbox.framework */,
+				A1EE2A5D1BDE7C9B00928F76 /* iAd.framework */,
+				A1EE2A481BDE7C4200928F76 /* LHS Bell Schedule */,
+				A1EE2A471BDE7C4200928F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EE2A471BDE7C4200928F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE2A461BDE7C4200928F76 /* LHS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EE2A481BDE7C4200928F76 /* LHS Bell Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				A1ABDD411BFA2B73004CC5EB /* Parse.framework */,
+				A1B943B91BE989BD00E84C9F /* Bolts.framework */,
+				A1EE2A491BDE7C4200928F76 /* AppDelegate.swift */,
+				A1EE2A4B1BDE7C4200928F76 /* FirstViewController.swift */,
+				A1EE2A4D1BDE7C4200928F76 /* SecondViewController.swift */,
+				A1B80A051BE001B400D1297A /* RegularDayViewController.swift */,
+				A1B80A071BE002E100D1297A /* HalfDayViewController.swift */,
+				A1B80A091BE0032000D1297A /* TwoHourDelayViewController.swift */,
+				A1B80A0B1BE0035400D1297A /* HomeroomViewController.swift */,
+				A1EA11571BE118E700B07236 /* NHCSCalenderController.swift */,
+				A1EE2A5F1BDE7D2900928F76 /* Clock.swift */,
+				A1EE2A4F1BDE7C4200928F76 /* Main.storyboard */,
+				A1EE2A521BDE7C4200928F76 /* Assets.xcassets */,
+				A1EE2A541BDE7C4200928F76 /* LaunchScreen.storyboard */,
+				A1EE2A571BDE7C4200928F76 /* Info.plist */,
+			);
+			path = "LHS Bell Schedule";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EE2A451BDE7C4200928F76 /* LHS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EE2A5A1BDE7C4200928F76 /* Build configuration list for PBXNativeTarget "LHS" */;
+			buildPhases = (
+				A1EE2A421BDE7C4200928F76 /* Sources */,
+				A1EE2A431BDE7C4200928F76 /* Frameworks */,
+				A1EE2A441BDE7C4200928F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHS;
+			productName = "LHS Bell Schedule";
+			productReference = A1EE2A461BDE7C4200928F76 /* LHS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EE2A3E1BDE7C4200928F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nick Greenway";
+				TargetAttributes = {
+					A1EE2A451BDE7C4200928F76 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XUK9L4M953;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A1EE2A411BDE7C4200928F76 /* Build configuration list for PBXProject "LHS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EE2A3D1BDE7C4200928F76;
+			productRefGroup = A1EE2A471BDE7C4200928F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EE2A451BDE7C4200928F76 /* LHS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EE2A441BDE7C4200928F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE2A561BDE7C4200928F76 /* LaunchScreen.storyboard in Resources */,
+				A1EE2A531BDE7C4200928F76 /* Assets.xcassets in Resources */,
+				A1EE2A511BDE7C4200928F76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EE2A421BDE7C4200928F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B80A081BE002E100D1297A /* HalfDayViewController.swift in Sources */,
+				A1EE2A4E1BDE7C4200928F76 /* SecondViewController.swift in Sources */,
+				A1EE2A4A1BDE7C4200928F76 /* AppDelegate.swift in Sources */,
+				A1B80A0A1BE0032000D1297A /* TwoHourDelayViewController.swift in Sources */,
+				A1B80A0C1BE0035400D1297A /* HomeroomViewController.swift in Sources */,
+				A1EE2A601BDE7D2900928F76 /* Clock.swift in Sources */,
+				A1EA11581BE118E700B07236 /* NHCSCalenderController.swift in Sources */,
+				A1EE2A4C1BDE7C4200928F76 /* FirstViewController.swift in Sources */,
+				A1B80A061BE001B400D1297A /* RegularDayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1EE2A4F1BDE7C4200928F76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EE2A501BDE7C4200928F76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EE2A541BDE7C4200928F76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EE2A551BDE7C4200928F76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EE2A581BDE7C4200928F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: self.edu.LHSbellschedule";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: self.edu.LHSbellschedule";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		A1EE2A591BDE7C4200928F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: self.edu.LHSbellschedule";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: self.edu.LHSbellschedule";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		A1EE2A5B1BDE7C4200928F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+				);
+				INFOPLIST_FILE = "LHS Bell Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LHSbellschedule;
+				PRODUCT_NAME = LHS;
+				PROVISIONING_PROFILE = "94b11dd9-ccfd-44da-b997-46c0d0679f4d";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		A1EE2A5C1BDE7C4200928F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+					"$(PROJECT_DIR)/LHS",
+					Bell,
+					Schedule,
+				);
+				INFOPLIST_FILE = "LHS Bell Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.LHSbellschedule;
+				PRODUCT_NAME = LHS;
+				PROVISIONING_PROFILE = "898de862-4d57-419b-a664-abfe8357a238";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EE2A411BDE7C4200928F76 /* Build configuration list for PBXProject "LHS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EE2A581BDE7C4200928F76 /* Debug */,
+				A1EE2A591BDE7C4200928F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EE2A5A1BDE7C4200928F76 /* Build configuration list for PBXNativeTarget "LHS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EE2A5B1BDE7C4200928F76 /* Debug */,
+				A1EE2A5C1BDE7C4200928F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EE2A3E1BDE7C4200928F76 /* Project object */;
+}
